@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(to bottom, #f5f5f5, #eaeaea);
+  color: #333;
+}
+
+header {
+  padding: 20px 10px;
+  background: #006847;
+  color: white;
+  border-bottom: 4px solid #ce1126;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #00000055;
+}
+
+.leyenda {
+  margin: 10px 0 0 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffdf00; /* dorado festivo */
+  text-shadow: 1px 1px #000;
+}
+
+.controls {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.controls label {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.codigo {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #006847;
+}
+
+.bandera {
+  display: flex;
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  border: 3px solid #000;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  border-radius: 6px;
+}
+
+.franja {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verde {
+  background-color: rgb(0, 104, 0);
+}
+
+.blanca {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.roja {
+  background-color: rgb(18, 0, 0);
+}
+
+.escudo {
+  width: 140px;
+  height: auto;
+}
+.creditos {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.creditos p {
+  margin: 5px 0;
+}

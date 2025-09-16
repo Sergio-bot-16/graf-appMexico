@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bandera de México</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🇲🇽 Bandera de México 🇲🇽</h1>
+    <p class="leyenda">🎉 Feliz Día de la Independencia de México 🎉</p>
+  </header>
+
+  <div class="controls">
+    <label for="verde">Intensidad Verde:</label>
+    <input type="range" id="verde" min="0" max="255" value="104">
+    <span id="verdeCode" class="codigo">rgb(0,104,0)</span>
+
+    <br><br>
+
+    <label for="rojo">Intensidad Rojo:</label>
+    <input type="range" id="rojo" min="0" max="255" value="18">
+    <span id="rojoCode" class="codigo">rgb(18,0,0)</span>
+  </div>
+
+  <div class="bandera">
+    <div class="franja verde"></div>
+    <div class="franja blanca">
+      <img 
+        src="https://imgs.search.brave.com/loNSyl1bD7ghqsWfVATCIiK-7JLD-cl9SndhY1ZKhC4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzQvMS9lc2N1ZG8t/bWV4aWNvLWxvZ28t/cG5nX3NlZWtsb2dv/LTQ4OTcwLnBuZw" 
+        alt="Escudo de México" 
+        class="escudo">
+    </div>
+    <div class="franja roja"></div>
+  </div>
+  <div class="creditos">
+  <p><strong>Nombre:</strong>Sergio Eloy Cruz Monter</p>
+  <p><strong>Número de control:</strong> 23200823</p>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
